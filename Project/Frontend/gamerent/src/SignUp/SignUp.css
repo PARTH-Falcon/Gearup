@@ -1,0 +1,110 @@
+/* UniqueSignUp.css */
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #545454; /* Main background color */
+  color: #fff; /* White text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Signup Container */
+.unique-signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Signup Box */
+.unique-signup-box {
+  background-color: #545454; /* Semi-transparent dark background */
+  border-radius: 15px;
+  padding: 40px;
+  width: 450px; /* Spacious container */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8); /* Depth and shadow */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between form elements */
+  backdrop-filter: blur(10px); /* Glassmorphism effect (blurred background) */
+}
+
+/* Title */
+.unique-signup-title {
+  font-size: 40px;
+  color: #ffd33b; /* Master yellow */
+  margin-bottom: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Form Group */
+.unique-form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align form elements to the left */
+  gap: 15px; /* Space between form groups */
+}
+
+/* Input Fields */
+.unique-signup-form input {
+  width: 90%;
+  padding: 12px 18px;
+  border: 2px solid #ffd33b; /* Master yellow border */
+  border-radius: 8px;
+  background-color: #1c1c1c; /* Dark gray background */
+  color: #fff; /* White text */
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+  margin-bottom: 15px; /* Adds space between input fields */
+}
+
+.unique-signup-form input::placeholder {
+  color: #ffd33b; /* Master yellow placeholder */
+  font-weight: bold;
+  font-size: small;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+  font-weight: bold;
+}
+
+.unique-signup-button {
+  background-color: #ffd33b; /* Master yellow */
+  color: #000000; /* Black text */
+}
+
+.unique-signup-button:hover {
+  background-color: #ff2273; /* Hover effect in pink */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.unique-signup-button:active {
+  transform: scale(0.98);
+}
+
+/* Button Group */
+.unique-button-group {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  gap: 15px; /* Space between buttons */
+}
+
+.unique-logo{
+  width: 140px;
+}

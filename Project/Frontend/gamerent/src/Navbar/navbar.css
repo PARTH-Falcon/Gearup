@@ -1,0 +1,171 @@
+/* Navbar styles */
+.header {
+  display: flex;
+  justify-content: space-between; /* Space between logo and nav-right */
+  align-items: center;
+  background-color: #ffd33b;
+  color: rgb(0, 0, 0);
+  padding: 0 20px; /* Horizontal padding */
+  height: 80px;
+  width: 100%; /* Full width of the screen */
+  box-sizing: border-box;
+}
+
+/* Logo container */
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo img {
+  height: 70px;
+  margin-right: 10px;
+  padding-bottom: 2px;
+}
+
+.header h1 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: #333;
+  font-size: 1.7rem;
+}
+
+/* Nav-right container for additional items */
+.nav-right {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* Cart container */
+.cart-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Cart icon */
+.cart-icon {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+/* Cart dropdown */
+.cart-dropdown {
+  display: block; /* Always visible when isCartOpen is true */
+  position: absolute;
+  top: 70px;
+  right: 0;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  z-index: 1000;
+  width: 250px; /* Adjust dropdown width */
+}
+
+/* Dropdown list */
+.cart-dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-dropdown ul li {
+  display: flex; /* Align checkbox and label horizontally */
+  align-items: center; /* Vertically align items */
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-dropdown ul li:last-child {
+  border-bottom: none;
+}
+
+/* Checkbox styling */
+.cart-dropdown input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+
+/* Order Now button */
+.order-now-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #ffd33b;
+  border: none;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.order-now-button:hover {
+  background-color: #e5c132;
+}
+
+/* Cart item as a card */
+.cart-item {
+  text-align: left;
+  background-color: #e5c132;
+  padding: 15px; /* Added padding for better spacing */
+  margin: 10px 0; /* Add margin between items */
+  border-radius: 8px; /* Rounded corners for card effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow to give card effect */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Product name and price bold */
+.cart-item-info {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.product-name {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.price-per-day {
+  font-size: 1rem;
+}
+
+/* Delete icon size */
+.cart-item .delete-icon {
+  width: 40px; /* Smaller delete icon */
+  height: 40px;
+  cursor: pointer;
+  margin-left: 10px; /* Add space between product info and delete button */
+}
+
+/* Optional: Add hover effect for cart item */
+.cart-item:hover {
+  background-color: #f4b400; /* Slightly darker background on hover */
+  transform: translateY(-5px); /* Lift the card on hover */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.Cart-Head{
+  color: #000000;
+}
+
+.my-order-link {
+  margin-left: 20px;
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.my-order-link:hover {
+  color: #007bff;
+}

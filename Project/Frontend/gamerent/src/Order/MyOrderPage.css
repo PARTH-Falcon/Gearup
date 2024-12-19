@@ -1,0 +1,110 @@
+/* Background color for the entire page */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+  }
+
+  
+.my-order-page-container {
+    background-color: #545454; /* Dark grey background for the page */
+    margin-top: auto;
+    min-height: 100vh;
+  }
+  
+  /* Navbar style */
+  .my-order-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333; /* Darker background for navbar */
+    padding: 20px 40px; /* Increased padding for a larger navbar */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%; /* Ensure the navbar spans the full width */
+  }
+  
+  /* Navbar item styles (if you have links or buttons) */
+  .my-order-navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 15px;
+  }
+  
+  .my-order-navbar a:hover {
+    background-color: #444444; /* Hover effect for navbar items */
+    border-radius: 4px;
+  }
+  
+  /* Info container for order details */
+  .my-order-info-container {
+    padding: 20px;
+    background-color: #e4e4e4; /* Light grey background for content area */
+    border-radius: 8px;
+    margin: 20px;
+    height: 550px;
+  }
+  
+  /* Header styling */
+  .my-order-header {
+    font-size: 28px; /* Larger font size for the header */
+    margin-bottom: 20px;
+    color: #222222; /* Darker text for better readability */
+  }
+  
+  /* Summary section styling */
+  .my-order-summary {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #555555; /* Dark grey color for summary text */
+  }
+  
+  /* List of ordered products */
+  .my-product-list {
+    margin-top: 15px;
+  }
+  
+  /* Styling each product item in the list */
+  .my-product-item {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Larger shadow for more emphasis */
+  }
+  
+  /* Paragraph styling inside each product item */
+  .my-product-item p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #444444; /* Medium grey text color */
+  }
+  
+  /* Styling for the labels like "Product", "Price", etc. */
+  .my-product-item strong {
+    color: #222222; /* Darker color for labels */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .my-order-navbar {
+      padding: 15px 20px; /* Adjust padding for smaller screens */
+    }
+  
+    .my-order-header {
+      font-size: 24px; /* Slightly smaller font size on mobile */
+    }
+  
+    .my-product-item {
+      padding: 10px;
+    }
+  }
+  
+  .header{
+    width: 1540px;
+  }

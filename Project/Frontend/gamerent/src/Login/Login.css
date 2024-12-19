@@ -1,0 +1,110 @@
+/* UniqueLogin.css */
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #545454;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Wrapper */
+.unique-login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* Login Box */
+.unique-login-box {
+  background-color: #545454;
+  border-radius: 15px;
+  padding: 40px;
+  width: 450px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  backdrop-filter: blur(10px);
+}
+
+/* Title */
+.unique-login-title {
+  font-size: 40px;
+  color: #ffd33b;
+  margin-bottom: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Form Group */
+.unique-form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Input Fields */
+input {
+  width: 90%;
+  padding: 12px 18px;
+  border: 2px solid #ffd33b;
+  border-radius: 8px;
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input::placeholder {
+  color: #ffd33b;
+  font-weight: bold;
+  font-size: small;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+  font-weight: bold;
+}
+
+.unique-login-next-button {
+  background-color: #ffd33b;
+  color: #000000;
+}
+
+.unique-login-next-button:hover {
+  background-color: #ff2273;
+  transform: translateY(-2px);
+}
+
+.unique-signup-button {
+  background-color: #ffd33b;
+  color: #000000;
+}
+
+.unique-signup-button:hover {
+  background-color: #ff2273;
+  transform: translateY(-2px);
+}
+
+/* Button Group */
+.unique-button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
